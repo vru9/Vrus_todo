@@ -2,7 +2,7 @@ import dalit from "../assets/dalit.png"; // Ensure this path is correct and the 
 
 export default function Second() {
   return (
-    <div className="main">
+    <div className="main flex justify-center flex-col items-center">
       <div className="subcontainer w-full text-center ">
         <div class="mb-6">
           <label
@@ -20,7 +20,7 @@ export default function Second() {
         </div>
       </div>
 
-      <div className="container flex flex-col justify-center items-center">
+      <div className="container flex flex-col justify-center items-center w-[80%] md:w-[100%]">
         <div class="w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
           <div class="flex items-center justify-between mb-4">
             <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">
