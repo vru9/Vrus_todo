@@ -9,7 +9,7 @@ export default function Second() {
             for="default-input"
             class="block mb-4 select-none text-2xl font-bold text-gray-900 dark:text-white"
           >
-            Vru's Todo List
+            Vruddhi's Todo List
           </label>
           <input
             type="text"
